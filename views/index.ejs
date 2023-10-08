@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              violetDark: '#352F44',
+              violetLight: '#5C5470',
+              grayLight: '#B9B4C7',
+              beige: '#FAF0E6',
+              black: '#000000',
+            }
+          }
+        }
+      }
+    </script>
+
+  </head>
+  <body>
+    <%- include("./partials/header.ejs") %>
+
+    <main>
+      <%- include("./partials/apresentacao.ejs") %>
+    </main>
+
+    <%- include("./partials/footer.ejs") %>
+  </body>
+</html>

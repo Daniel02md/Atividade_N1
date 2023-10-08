@@ -1,0 +1,12 @@
+:root{
+  --main-font: 'Ubuntu', sans-serif;
+  --violet-dark: #352F44;
+  --violet-light: #5C5470;
+  --gray-light: #B9B4C7;
+  --beige: #FAF0E6;
+  --black: #000000;
+}
+
+body{
+  min-height: 100%;
+}
